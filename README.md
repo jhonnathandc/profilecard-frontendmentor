@@ -1,15 +1,15 @@
-# Ping Single Column - FrontEnd Mentor
+# Profile Card Component - FrontEnd Mentor
 
 This project is part of the challenges of [FrontEnd Mentor](https://www.frontendmentor.io/).
 
-[Access the website here.](https://huddle-frontendmentor-jdc.vercel.app/)
+[Access the website here.](https://profilecard-frontendmentor-jdc.vercel.app/)
 <br>
 <br>
-[Access the challenge here.](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
+[Access the challenge here.](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
 ## Demonstration
+![Desktop + Mobile - 5](https://github.com/jhonnathandc/profilecard-frontendmentor/assets/82620787/18caa269-2a66-430f-9a8e-d60d8f337d96)
 
-![thumb](https://github.com/jhonnathandc/ping-frontendmentor/assets/82620787/ef28d2ce-0426-4ecf-9ba2-d454f0fffb76)
 
 ## More information
 
@@ -17,11 +17,10 @@ It was built as proposed in the design, using:
 
 - HTML
 - CSS
-- JavaScript
 
 ## Stack
 
-**Front-end:** HTML, CSS, JavaSCript
+**Front-end:** HTML, CSS
 
 ## License
 
