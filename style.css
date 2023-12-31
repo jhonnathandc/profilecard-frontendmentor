@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #19a1ae;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  display: block;
+  background-image: url("./images/bg-pattern-top.svg");
+  width: 97.8rem;
+  height: 97.8rem;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: -1;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  background-image: url("./images/bg-pattern-bottom.svg");
+  width: 97.8rem;
+  height: 97.8rem;
+  position: absolute;
+  top: 115%;
+  left: 80%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: -1;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+  max-width: 35rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-bg {
+  background-image: url("./images/bg-pattern-card.svg");
+  width: 100%;
+  height: 14rem;
+}
+
+.card-content {
+  position: relative;
+  padding-top: 7.2rem;
+  width: 100%;
+}
+
+.card-content-profile {
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 0;
+  border: 0.5rem solid #ffffff;
+  border-radius: 50%;
+  width: 9.6rem;
+  height: 9.6rem;
+  overflow: hidden;
+}
+
+.card-content h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2e3349;
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+.card-content h1 span {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #6b7082;
+  text-align: center;
+  margin-left: 0.4rem;
+}
+
+.card-content .city {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #6b7082;
+  text-align: center;
+  padding-bottom: 2.8rem;
+  border-bottom: 0.1rem solid #e8e9ec;
+}
+
+.card-content-status {
+  width: 100%;
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 24.9rem;
+  margin: 0 auto;
+}
+
+.card-content-status p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2e3349;
+  margin-bottom: 0.9rem;
+  text-align: center;
+}
+
+.card-content-status span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  color: #6b7082;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 2.4rem;
+  }
+  .container::before {
+    top: -10%;
+    left: -30%;
+  }
+
+  .container::after {
+    top: 115%;
+    left: 110%;
+  }
+}
